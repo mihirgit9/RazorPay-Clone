@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Razorpay Clone</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+</head>
+<body class="overflow-x-hidden">
+    <nav class="bg-deepBlue">
+        <div class="flex w-10/12 max-w-[1080px] mx-auto items-center justify-between">
+            <!-- logo -->
+            <div>
+                <a href="#">
+                    <img src="/assets/logo.svg" alt="logo"
+                        width="125px"
+                    >
+                </a>
+            </div>
+            <!-- menu -->
+            <div class="text-white font-mullish relative py-7 hover:text-lightBlue group transition-all duration-200"><a href="#">Payments</a>
+                <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue transition-all duration-200"></div>
+            </div>
+            <div class="text-white font-mullish relative py-7 hover:text-lightBlue group transition-all duration-200"><a href="#">Banking</a>
+                <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue transition-all duration-200"></div>
+            </div>
+            <div class="text-white font-mullish relative py-7 hover:text-lightBlue group transition-all duration-200"><a href="#">Corporate Card</a>
+            </div>
+            <div class="text-white font-mullish relative py-7 hover:text-lightBlue group transition-all duration-200"><a href="#">Payroll</a>
+            </div>
+            <div class="text-white font-mullish relative py-7 hover:text-lightBlue group transition-all duration-200"><a href="#">Resources</a>
+                <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue transition-all duration-200"></div>
+            </div>
+            <div class="text-white font-mullish relative py-7 hover:text-lightBlue group transition-all duration-200"><a href="#">Support</a>
+                <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue transition-all duration-200"></div>
+            </div>
+            <div class="text-white font-mullish relative py-7 hover:text-lightBlue group transition-all duration-200"><a href="#">Pricing</a>
+                <div class="absolute bottom-0 w-full h-1 group-hover:bg-lightBlue transition-all duration-200"></div>
+            </div>
+            <!-- buttons -->
+            <div class="flex gap-3 items-center">
+                <div class="mt-1">
+                    <img src="/assets/india-flag.svg" alt="flag">
+                </div>
+                <button class="text-white text-sm font-bold font-mullish py-3 px-5 border border-lightBlue rounded-sm">
+                    Log in
+                </button>
+                <button class="text-lightBlue300 text-sm font-bold font-mullish py-3 px-4
+                 bg-white rounded-sm hover:text-lightBlue500 group transition-all duration-200">
+                    Sign up
+                    <i class="fa fa-arrow-right font-thin ml-2"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- hero-section -->
+    <section class="bg-hero-gradient relative">
+        <div class="flex w-10/12 max-w-[1080px] mx-auto items-center justify-between -mt-[0.7px]">
+            <!-- left-hero -->
+            <div class="space-y-7 lg:my-0">
+                <h1 class="text-white font-mullish text-[40px] font-extrabold leading-[1.2]">Power your finance, grow your business</h1>
+                <div class="w-6 h-1 bg-greenLight my-8"></div>
+                <p class="text-white font-mullish text-[18px] opacity-70 leading-7">Accept payments from customers. 
+                    Automate payouts to vendors & employees. Never run out of working capital.
+                </p>
+                <button class="text-white bg-lightBlue font-mullish 
+                 py-4 px-5 mt-8 rounded-md font-bold hover:bg-lightBlue500 
+                 transition-all duration-200">
+                    Sign Up Now
+                </button>
+            </div>
+            <!-- right-hero -->
+            <div>
+                <img src="/assets/hero-illustration.jpg" alt="" class="w-full min-w-[680px]">
+            </div>
+        </div>
+    </section>
+    <div class="relative w-[102%] bg-white z-10">
+        <img 
+            src="/assets/hero-shape.svg"
+            alt="#"
+            class="w-full object-fill"
+        >
+    </div>
+    <!-- feature -->
+    <section class="relative z-0">
+        <img src="/assets/feature-section1-dottedrows.png" alt="#" width="233" height="10px"
+            class="absolute -top-[8rem] left-[10rem] -z-10"
+        >
+        <img src="/assets/feature-section1-dottedrows.png" alt="#" width="233" height="167"
+            class="absolute right-0 top-9 rotate-180 -z-[100]"
+        >
+        <div>
+            <h2 class="text-center font-mullish font-extrabold text-2xl leading-1.2">Accept Payments with Razorpay Payment Suite</h2>
+        </div>
+        <div class="w-6 h-1 bg-greenLight mx-auto my-[15px]"></div>
+        <div class="w-10/12 max-w-[1080px] bg-white mx-auto border rounded-md mt-20 p-10 relative z-10">
+            <h2 class="w-[50%] font-mullish text-[1.7rem] font-bold md:leading-10 mb-16">Supercharge your business with the all-powerful <span class="text-lightBlue">Payment Gateway</span></h2>
+            <ul class="space-y-2 my-6">
+                <li class="font-mullish flex items-center space-x-2"> 
+                    <i class="fa fa-check text-greenLight"></i>
+                    <span>100+ Payment Methods
+                </li>
+                <li class="font-mullish flex items-center space-x-2"> 
+                    <i class="fa fa-check text-greenLight"></i>
+                    <span>Industry Leading Success Rate</span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2"> 
+                    <i class="fa fa-check text-greenLight"></i>
+                    <span>Superior Checkout Experience</span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2"> 
+                    <i class="fa fa-check text-greenLight"></i>
+                    <span>Easy to Integrate</span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2"> 
+                    <i class="fa fa-check text-greenLight"></i>
+                    <span>Instant Settlement from day 1</span>
+                </li>
+                <li class="font-mullish flex items-center space-x-2"> 
+                    <i class="fa fa-check text-greenLight"></i>
+                    <span>In-depth Reporting and Insights</span>
+                </li>
+            </ul>
+            <div class="flex items-center gap-4">
+                <button class="text-white bg-lightBlue font-mullish 
+                py-[15px] px-5 mt-9 rounded-md font-bold hover:bg-lightBlue500 
+                transition-all duration-200">
+                    Sign Up Now
+                    <i class="fa fa-arrow-right ml-2"></i>
+                </button>
+                <div class="text-lightBlue500 font-mullish 
+                 font-bold py-[15px] mt-9 flex items-end hover:text-grayBlue">
+                    <a href="#">Know More</a>
+                    <i class="fas fa-angle-right pl-2 text-xl cursor-pointer"></i>
+                </div>
+            </div>
+            <img src="/assets/payment-suite.png" alt="#"
+                class="absolute right-0 top-0 w-[55%]"
+            >
+        </div> 
+    </section>
+
+</body>
+</html>
