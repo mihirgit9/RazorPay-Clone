@@ -83,14 +83,14 @@
                 <img src="/assets/hero-illustration.jpg" alt="" class="w-full min-w-[680px]">
             </div>
         </div>
+        <div class="relative w-[102%] bg-white z-10">
+            <img 
+                src="/assets/hero-shape.svg"
+                alt="#"
+                class="w-full object-fill"
+            >
+        </div>
     </section>
-    <div class="relative w-[102%] bg-white z-10">
-        <img 
-            src="/assets/hero-shape.svg"
-            alt="#"
-            class="w-full object-fill"
-        >
-    </div>
     <!-- feature-1 -->
     <section class="relative z-0">
         <img src="/assets/feature-section1-dottedrows.png" alt="#" width="233" height="10px"
@@ -439,7 +439,7 @@
         </div>
     </section>
     <!-- feature-2 -->
-    <section class="bg-[url(/assets/feature-section-2BG.svg)] bg-no-repeat bg-cover pt-[16.6rem] pb-[500px] relative">
+    <section class="bg-[url(/assets/feature-section-2BG.svg)] bg-origin-content bg-clip-content pt-[16.6rem] pb-[500px] relative">
         <h2 class="font-mullish text-white text-[1.5rem] font-extrabold mx-auto w-fit">Explore Razorpay Business Banking</h2>
         <div class="w-6 h-1 bg-greenLight mx-auto mt-3"></div>
         <img
@@ -742,6 +742,222 @@
             </div>
         </div>
     </section>
-
+    <!-- new features -->
+    <section class="relative pb-10">
+        <div class="grid grid-cols-3 gap-4 gap-y-10 w-10/12 max-w-[1080px] mx-auto relative py-4">
+            <!-- dot-images-bg -->
+            <img
+                src="/assets/feature-section1-dottedrows.png" alt="#"
+                class="absolute w-[233px] left-[300px] -top-[6rem] -z-[10]"
+            />
+            <img
+                src="/assets/feature-section1-dottedrows.png" alt="#"
+                class="absolute w-[233px] -right-[3.5rem] -top-[6rem] -z-[10]"
+            />
+            <!-- heading-cell -->
+            <div class="font-mullish font-extrabold text-deepBlueHead text-[2.3rem] py-16 leading-[1.5]">
+                New in the <br> <span class="text-lightBlue500">Razorpay</span> <br> Product Suite
+            </div>
+            <!-- card-1 -->
+            <div class="w-full p-10 pb-6  bg-white drop-shadow-lg  cursor-pointer bg-no-repeat bg-[url(/assets/instant-settlement-bg.svg)] 
+            hover:bg-[url(/assets/instant-settlement-bghover.svg)] hover:scale-105 transition-all duration-200"
+            >
+                <img src="/assets/razorpayXicon.svg" alt="#" class="w-10 h-10" />
+                <h3 class="font-mullish font-bold pt-4 text-lg">Corporate Cards</h3>
+                <p class="font-mullish text-grayText py-3 leading-normal">
+                    Simplify your recurring, international and team expenses with
+                    savings on every spend. Save upto 10 lacs every month.
+                </p>
+                <div class="flex items-end cursor-pointer font-mullish font-bold text-lightBlue500 hover:text-lightBlue transition-all duration-200">
+                    <a
+                        href="#"
+                        class=""
+                        >Know More
+                    </a>
+                    <i class="fas fa-angle-right pl-2"></i>
+                </div>
+            </div>
+            <!-- card-2 -->
+            <div class="w-full p-10 pb-6  bg-white drop-shadow-lg  cursor-pointer bg-no-repeat bg-[url(/assets/upi-autopay-bg.svg)] 
+            hover:bg-[url(/assets/upi-autopay-hoverbg.svg)] hover:scale-105 transition-all duration-200"
+            >
+                <img src="/assets/autopay-icon.svg" alt="#" class="w-10 h-10 bg-lightBlue rounded-full" />
+                <h3 class="font-mullish font-bold pt-4 text-lg">UPI AutoPay</h3>
+                <p class="font-mullish text-grayText py-3 leading-normal">
+                    Allow customers to set up recurring payments using UPI Apps.
+                </p>
+                <div class="flex items-end cursor-pointer font-mullish font-bold text-lightBlue500 hover:text-lightBlue transition-all duration-200">
+                    <a
+                        href="#"
+                        class=""
+                        >Know More
+                    </a>
+                    <i class="fas fa-angle-right pl-2"></i>
+                </div>
+            </div>
+            <!-- card-3 -->
+            <div class="w-full p-10 pb-6 bg-white drop-shadow-lg  cursor-pointer bg-no-repeat bg-[url(/assets/magic-checkout-bg.svg)] 
+            hover:bg-[url(/assets/magic-checkout-hoverbg.svg)] hover:scale-105 transition-all duration-200"
+            >
+                <img src="/assets/magic-checkout.svg" alt="#" class="w-10 h-10" />
+                <h3 class="font-mullish font-bold pt-4 text-lg">Magic Checkout</h3>
+                <p class="font-mullish text-grayText py-3 leading-normal">
+                    Improve your order conversion rates & reduce return-to-origins.
+                    Boost your business by 20%
+                </p>
+                <div class="flex items-end cursor-pointer font-mullish font-bold text-lightBlue500 hover:text-lightBlue transition-all duration-200">
+                    <a
+                        href="#"
+                        class=""
+                        >Know More
+                    </a>
+                    <i class="fas fa-angle-right pl-2"></i>
+                </div>
+            </div>
+            <!-- card-4 -->
+            <div class="w-full p-10 pb-6 bg-white drop-shadow-lg  cursor-pointer bg-no-repeat bg-[url(/assets/payment-button-bg.svg)] 
+            hover:bg-[url(/assets/payment-button-hoverbg.svg)] hover:scale-105 transition-all duration-200"
+            >
+                <img src="/assets/payment-button.svg" alt="#" class="w-10 h-10 bg-lightBlue rounded-full" />
+                <h3 class="font-mullish font-bold pt-4 text-lg">Payment Button</h3>
+                <p class="font-mullish text-grayText py-3 leading-normal">
+                    Accept payments on your website, in less than 5 minutes. No
+                    developer needed.
+                </p>
+                <div class="flex items-end cursor-pointer font-mullish font-bold text-lightBlue500 hover:text-lightBlue transition-all duration-200">
+                    <a
+                        href="#"
+                        class=""
+                        >Know More
+                    </a>
+                    <i class="fas fa-angle-right pl-2"></i>
+                </div>
+            </div>
+            <!-- card-5 -->
+            <div class="w-full p-10 pb-6 bg-white drop-shadow-lg  cursor-pointer bg-no-repeat bg-[url(/assets/instantsettlement-bg.svg)] 
+            hover:bg-[url(/assets/instantsettlement-hoverbg.svg)] hover:scale-105 transition-all duration-200"
+            >
+                <img src="/assets/instant-settlement-icon.svg" alt="#" class="w-10 h-10 bg-lightBlue rounded-full" />
+                <h3 class="font-mullish font-bold pt-4 text-lg">Corporate Cards</h3>
+                <p class="font-mullish text-grayText py-3 leading-normal">
+                    Simplify your recurring, international and team expenses with
+                    savings on every spend. Save upto 10 lacs every month.
+                </p>
+                <div class="flex items-end cursor-pointer font-mullish font-bold text-lightBlue500 hover:text-lightBlue transition-all duration-200">
+                    <a
+                        href="#"
+                        class=""
+                        >Know More
+                    </a>
+                    <i class="fas fa-angle-right pl-2"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- core-features -->
+    <section class="w-full bg-[url(/assets/core-features-sectionBg.svg)] bg-no-repeat bg-cover bg-right relative z-[100] my-6">
+        <div class="w-10/12 max-w-[1080px] mx-auto py-[10rem] ">
+            <h2 class="font-mullish font-extrabold text-center text-white text-2xl">Features</h2>
+            <div class="w-6 h-1 bg-greenLight mx-auto my-4"></div>
+            <div class=" text-center font-mullish text-white ">
+                Empower your business with all the right tools to accept <br>
+                online payments and provide the best customer experience
+            </div>
+            <div class="grid grid-cols-4 gap-8  py-8">
+                <!-- core feature 1 -->
+                <div>
+                    <img src="/assets/instant-activation-icon.svg" alt="#" />
+                    <h3 class="font-mullish text-white text-lg font-extrabold my-4">
+                        Instant Activation
+                    </h3>
+                    <p class="font-mullish text-white opacity-[0.87]">
+                        Get activated and transact within 2 minutes. Completely online
+                        onboarding with minimum documentation.
+                    </p>
+                </div>
+                <!-- core feature 2 -->
+                <div>
+                    <img src="/assets/easy-integration.svg" alt="#" />
+                    <h3 class="font-mullish text-white text-lg font-extrabold my-4">
+                        Easy Integration
+                    </h3>
+                    <p class="font-mullish text-white opacity-[0.87]">
+                        With plugins for all major platforms and languages, integrate and
+                        go live with Razorpay in less than an hour.
+                    </p>
+                </div>
+                <!-- core feature 3 -->
+                <div>
+                    <img src="/assets/api-driven-icon.svg" alt="#"/>
+                    <h3 class="font-mullish text-white text-lg font-extrabold my-4">
+                        API Driven
+                    </h3>
+                    <p class="font-mullish text-white opacity-[0.87]">
+                        Build your business for scale with our complete API-driven
+                        automation that requires zero manual intervention.
+                    </p>
+                </div>
+                <!-- core feature 4 -->
+                <div>
+                    <img src="/assets/payment-modes.svg" alt="#"/>
+                    <h3 class="font-mullish text-white text-lg font-extrabold my-4">
+                        100+ payment modes
+                    </h3>
+                    <p class="font-mullish text-white opacity-[0.87]">
+                        Offer your customers the luxury of all payment modes including
+                        Credit/Debit cards, Netbanking, UPI, Wallets etc.
+                    </p>
+                </div>
+                <!-- core feature 5 -->
+                <div>
+                    <img src="/assets/simple-pricing.svg" alt="#" />
+                    <h3 class="font-mullish text-white text-lg font-extrabold my-4">
+                        Simple Pricing
+                    </h3>
+                    <p class="font-mullish text-white opacity-[0.87]">
+                        Our innovative payment solutions with competitive pricing make
+                        payments simpler.
+                    </p>
+                </div>
+                <!-- core feature 6 -->
+                <div>
+                    <img src="/assets/industry-support-icon.svg" alt="#"/>
+                    <h3 class="font-mullish text-white text-lg font-extrabold my-4">
+                        Best in Industry Support
+                    </h3>
+                    <p class="font-mullish text-white opacity-[0.87]">
+                        Always available email, phone and chat based support to help you
+                        in your every step.
+                    </p>
+                </div>
+                <!-- core feature 7 -->
+                <div>
+                    <img src="/assets/dashboard-reporting-icon.svg" alt="#"/>
+                    <h3 class="font-mullish text-white text-lg font-extrabold my-4">
+                        Dashboard Reporting
+                    </h3>
+                    <p class="font-mullish text-white opacity-[0.87]">
+                        Real-time data and insights on your Razorpay Dashboard to make
+                        informed business decisions.
+                    </p>
+                </div>
+                <!-- core feature 8 -->
+                <div>
+                    <img src="/assets/secure-icon.svg" alt="$"/>
+                    <h3 class="font-mullish text-white text-lg font-extrabold my-4">
+                        Secure
+                    </h3>
+                    <p class="font-mullish text-white opacity-[0.87]">
+                        PCI DSS Level 1 compliant solution which removes your burden of
+                        regulatory compliance.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- join razorpy -->
+    <section>
+        
+    </section>
 </body>
 </html>
